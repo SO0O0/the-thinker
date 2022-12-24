@@ -47,5 +47,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  router: {
+    base: '/the-thinker/'
+  },
+
+  generate: {
+    dir: '../docs'
+  },
 }
