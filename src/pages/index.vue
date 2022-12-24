@@ -29,7 +29,8 @@ export default Vue.extend({
   text-align: center;
 
   .title {
-    margin-top: 70%;
+    margin-top: 260px;
+
     h1 {
       font-family: "PixelMplus12";
       font-size: 3rem;

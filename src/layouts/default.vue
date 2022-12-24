@@ -11,3 +11,9 @@ export default Vue.extend({
   name: 'DefaultLayout'
 });
 </script>
+
+<style lang="scss">
+#app {
+  background-color: #184442;
+}
+</style>
