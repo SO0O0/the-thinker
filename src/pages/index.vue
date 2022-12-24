@@ -9,7 +9,7 @@
       </p>
     </div>
     <div class="start">
-      <v-btn color="#E8B96D" dark large to="/stage1">start</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1-story">start</v-btn>
     </div>
   </section>
 </template>
