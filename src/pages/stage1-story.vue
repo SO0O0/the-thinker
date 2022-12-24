@@ -29,7 +29,6 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .stage1-story {
   text-align: center;
-  height: 100vh;
   .proposal {
     position: relative;
     margin-top: 10%;
@@ -37,9 +36,10 @@ export default Vue.extend({
       width: 75%;
     }
     p {
-      top: 40px;
-      left: 105px;
       position: absolute;
+      top: 43%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       font-family: "PixelMplus10";
       font-size: 20px;
     }
