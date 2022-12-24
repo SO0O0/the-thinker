@@ -5,7 +5,8 @@
       <p>
         お腹減ったなあ
         <br />お弁当買いに行こう
-        <br />でもエコバッグ持ってない…
+        <br />でもエコバッグ
+        <br />持ってない…
       </p>
     </div>
     <img src="~/assets/img/hungry.png" alt="hungry" />
@@ -31,13 +32,13 @@ export default Vue.extend({
   height: 100vh;
   .proposal {
     position: relative;
-    margin-top: 30px;
+    margin-top: 10%;
     img {
-      width: 85%;
+      width: 75%;
     }
     p {
-      top: 60px;
-      left: 65px;
+      top: 40px;
+      left: 105px;
       position: absolute;
       font-family: "PixelMplus10";
       font-size: 20px;
@@ -47,7 +48,7 @@ export default Vue.extend({
     width: 80%;
   }
   .selection {
-    margin-top: 20px;
+    margin-top: 2%;
     display: inline-flex;
     flex-direction: column;
     .v-btn {
