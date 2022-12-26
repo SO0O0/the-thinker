@@ -1,22 +1,20 @@
 <template>
-  <section class="stage1-story">
+  <section class="stage1-result2">
     <div class="proposal">
       <img src="~/assets/img/hukidashi.png" alt="hukidashi" />
       <p>
         エコバッグを買ったけど
-        <br />本当にエコなのかな？
+        <br />結構しっかりしてるな…
+        <br />作るの大変そうだぞ…
       </p>
     </div>
     <img src="~/assets/img/eco-bag.png" alt="hungry" />
     <div class="message">
       <p>
-        レジ袋などのプラスチックが
-        <br/>環境に与える負荷から，
-        <br />近年はレジ袋の有料化が進んでいます．
-        <br />しかし，エコバッグもまた製造時に
-        <br />多大な環境負荷がかかっていることが
-        <br />指摘されています．
-        <br />どちらを選ぶべきか，考えてみましょう．
+        レジ袋の代わりにエコバッグを使うことで
+        <br />環境への負荷が減ると思っていませんか？
+        <br />エコバッグの生産・輸送は,レジ袋よりもCO2などのエネルギーの排出量が大きいことが指摘されています．
+        <br />エコバッグを本当に使うべきなのか，慎重に考えてみましょう．
       </p>
     </div>
     <div class="link">
@@ -35,7 +33,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.stage1-story {
+.stage1-result2 {
   text-align: center;
   .proposal {
     position: relative;
@@ -49,31 +47,16 @@ export default Vue.extend({
       left: 50%;
       transform: translate(-50%, -50%);
       font-family: "PixelMplus10";
-      font-size: 20px;
+      font-size: 17px;
     }
   }
   img {
     width: 80%;
   }
-  .selection {
-    margin-top: 2%;
-    display: inline-flex;
-    flex-direction: column;
-    .v-btn {
-      margin-bottom: 20px;
-      font-family: "PixelMplus10";
-      font-size: 15px;
-      color: #000;
-      background-color: #e8b96d;
-      border-radius: 0;
-      width: 220px;
-      height: 50px;
-    }
-  }
 
   .message {
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 15px;
     width: 80%;
     background-color: #e8b96d;
     border-radius: 10px;
