@@ -11,10 +11,10 @@
     </div>
     <img src="~/assets/img/hungry.png" alt="hungry" />
     <div class="selection">
-      <v-btn color="#E8B96D" dark large to="/stage1-result">レジ袋を買う</v-btn>
-      <v-btn color="#E8B96D" dark large to="/stage1-result">エコバックを買う</v-btn>
-      <v-btn color="#E8B96D" dark large to="/stage1-result">手で持って帰る</v-btn>
-      <v-btn color="#E8B96D" dark large to="/stage1-result">ご飯を食べるのを止める</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1-result1">レジ袋を買う</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1-result2">エコバックを買う</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1-result3">手で持って帰る</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1-result4">ご飯を食べるのを止める</v-btn>
     </div>
   </section>
 </template>
