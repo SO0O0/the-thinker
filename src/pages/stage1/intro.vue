@@ -1,11 +1,11 @@
 <template>
-  <section id="top-page">
+  <section id="intro">
     <div class="title">
       <h1>1st STAGE</h1>
       <h2>episode 買い物</h2>
     </div>
     <div class="start">
-      <v-btn color="#E8B96D" dark large to="/stage1/intro">次へ</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1/story">次へ</v-btn>
     </div>
   </section>
 </template>
@@ -19,7 +19,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-#top-page {
+#intro {
   height: 100vh;
   background-color: #184442;
   text-align: center;
