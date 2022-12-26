@@ -89,6 +89,7 @@ export default Vue.extend({
 
   .link {
     margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 10fr 1fr 10fr;
 
