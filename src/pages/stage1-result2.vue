@@ -1,15 +1,13 @@
 <template>
-  <section class="stage1-result1">
+  <section class="stage1-story">
     <div class="proposal">
       <img src="~/assets/img/hukidashi.png" alt="hukidashi" />
       <p>
-        レジ袋一枚で
-        <br />5円もした…
-        <br />エコバッグを買った
-        <br />ほうがいいのかな？
+        エコバッグを買ったけど
+        <br />本当にエコなのかな？
       </p>
     </div>
-    <img src="~/assets/img/shopping-bag.png" alt="hungry" />
+    <img src="~/assets/img/eco-bag.png" alt="hungry" />
     <div class="message">
       <p>
         レジ袋などのプラスチックが
@@ -37,7 +35,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.stage1-result1 {
+.stage1-story {
   text-align: center;
   .proposal {
     position: relative;
