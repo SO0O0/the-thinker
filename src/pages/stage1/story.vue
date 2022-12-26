@@ -1,5 +1,5 @@
 <template>
-  <section class="stage1-story">
+  <section class="story">
     <div class="proposal">
       <img src="~/assets/img/hukidashi.png" alt="hukidashi" />
       <p>
@@ -11,10 +11,9 @@
     </div>
     <img src="~/assets/img/hungry.png" alt="hungry" />
     <div class="selection">
-      <v-btn color="#E8B96D" dark large to="/stage1-result1">レジ袋を買う</v-btn>
-      <v-btn color="#E8B96D" dark large to="/stage1-result2">エコバックを買う</v-btn>
-      <v-btn color="#E8B96D" dark large to="/stage1-result3">手で持って帰る</v-btn>
-      <v-btn color="#E8B96D" dark large to="/stage1-result4">ご飯を食べるのを止める</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1/result1">レジ袋を買う</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1/result2">エコバックを買う</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1/result3">手で持って帰る</v-btn>
     </div>
   </section>
 </template>
@@ -27,7 +26,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.stage1-story {
+.story {
   text-align: center;
   .proposal {
     position: relative;
@@ -48,7 +47,7 @@ export default Vue.extend({
     width: 80%;
   }
   .selection {
-    margin-top: 2%;
+    margin-top: 30px;
     display: inline-flex;
     flex-direction: column;
     .v-btn {

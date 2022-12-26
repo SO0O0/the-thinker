@@ -1,5 +1,5 @@
 <template>
-  <section class="stage1-result2">
+  <section class="result2">
     <div class="proposal">
       <img src="~/assets/img/hukidashi.png" alt="hukidashi" />
       <p>
@@ -18,9 +18,9 @@
       </p>
     </div>
     <div class="link">
-      <nuxt-link to="stage1-story">戻る</nuxt-link>
+      <nuxt-link to="/stage1/story">戻る</nuxt-link>
       <nuxt-link to="/">TOP</nuxt-link>
-      <nuxt-link to="stage2-story">次へ</nuxt-link>
+      <nuxt-link to="/stage2/intro">次へ</nuxt-link>
     </div>
   </section>
 </template>
@@ -33,7 +33,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.stage1-result2 {
+.result2 {
   text-align: center;
   .proposal {
     position: relative;

@@ -1,15 +1,11 @@
 <template>
   <section id="top-page">
     <div class="title">
-      <h1>The Thinker</h1>
-      <p>
-        このアプリケーションは，
-        <br />リサイクルに対する正しい疑問を持たせることを
-        <br />目的としたシミュレーションゲームです．
-      </p>
+      <h1>1st STAGE</h1>
+      <h2>episode 買い物</h2>
     </div>
     <div class="start">
-      <v-btn color="#E8B96D" dark large to="/stage1/intro">start</v-btn>
+      <v-btn color="#E8B96D" dark large to="/stage1/intro">次へ</v-btn>
     </div>
   </section>
 </template>
@@ -37,6 +33,14 @@ export default Vue.extend({
       color: #fff;
     }
 
+    h2 {
+      font-family: "PixelMplus12";
+      font-size: 1.5rem;
+      color: #fff;
+      margin-top: 40px;
+    }
+    }
+
     p {
       font-family: "PixelMplus10";
       font-size: 15px;
@@ -58,5 +62,4 @@ export default Vue.extend({
       height: 50px;
     }
   }
-}
 </style>
