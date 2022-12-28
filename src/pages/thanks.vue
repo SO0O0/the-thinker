@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="selection">
-        <v-btn color="#E8B96D" dark large to="https://forms.gle/o76ngA77m89A3awj9">アンケートへ</v-btn>
+        <v-btn color="#E8B96D" dark large href="https://docs.google.com/forms/d/e/1FAIpQLScTyuYmCTYXUknASMCxa2BFECQs5JCl5aW8hZjTBil7ZSz-Kg/viewform">アンケートへ</v-btn>
         <v-btn color="#E8B96D" dark large to="/">トップへ</v-btn>
       </div>
     </div>

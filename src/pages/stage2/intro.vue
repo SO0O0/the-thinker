@@ -2,7 +2,7 @@
   <section id="intro">
     <div class="title">
       <h1>2st STAGE</h1>
-      <h2>episode 絵の具</h2>
+      <h2>episode 車</h2>
     </div>
     <div class="start">
       <v-btn color="#E8B96D" dark large to="/stage2/story">次へ</v-btn>
