@@ -2,6 +2,9 @@
 
 ## What is this?
 
+This is an application that aims to raise questions and incite curiosity about the ecological activities that users perform on a daily basis.
+
+
 ## How to use
 
 - ### Build
